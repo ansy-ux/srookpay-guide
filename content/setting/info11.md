@@ -13,8 +13,8 @@ source: https://srookpay.com/view/new_guide/setting/info11.html
 src: images/info11_01.jpg
 alt: 채널 리스트
 captured: 2026-10
-1: 70.5 67
-2: 92.5 67
+1: 70.5 67 box 83.5 65.9 8.7 3.4
+2: 92.5 67 box 93.1 65.9 5.3 3.4
 3: 19.5 76.3
 ```
 

@@ -11,9 +11,9 @@ source: https://srookpay.com/view/new_guide/accounts/sales.html
 src: images/sales_01_title.png
 alt: 매출 검색 화면
 captured: 2026-10
-1: 0 3.2
-2: 7.8 30.5
-3: 17.3 26.9
+1: 0 3.2 box 1 1.2 4.9 4.1
+2: 7.8 30.5 box 8.5 28.8 4.6 3.4
+3: 17.3 26.9 box 13.8 28.8 4.6 3.4
 4: 55.4 94
 ```
 

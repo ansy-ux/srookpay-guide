@@ -11,10 +11,10 @@ source: https://srookpay.com/view/new_guide/sms/manage01.html
 src: images/sms_manage_auto_title.png
 alt: 자동메시지 화면
 captured: 2026-10
-1: 1.1 2.2
-2: 1.2 20.3
-3: 1.2 31.7
-4: 1.2 39.4
+1: 1.1 2.2 box 1.9 0.8 4.6 2.8
+2: 1.2 20.3 box 3.1 20.8 3.6 2.3
+3: 1.2 31.7 box 3.1 29.6 3.2 2.1
+4: 1.2 39.4 box 4.2 40.1 3.8 2.4
 ```
 
 ### 치환구문 {#1}
@@ -61,9 +61,9 @@ alt: 메시지
 src: images/sms_manage_manual_title.png
 alt: 수동메시지 화면
 captured: 2026-10
-1: 1.1 2.2
+1: 1.1 2.2 box 1.9 0.8 4.6 2.8
 2: 1 26.1
-3: 3.4 35.9
+3: 3.4 35.9 box 2.9 36.3 4.1 2.4
 ```
 
 ### 치환구문 {#1}

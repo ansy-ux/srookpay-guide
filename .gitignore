@@ -12,3 +12,4 @@ capture/ocr-all.json
 capture/audit.json
 capture/remaining.json
 capture/fit-markers.json
+capture/box-markers.json

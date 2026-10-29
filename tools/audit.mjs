@@ -10,7 +10,7 @@ import { join } from 'node:path';
 const BASE = 'http://localhost:4321/';
 const walk = (d) => readdirSync(d).flatMap((f) => (statSync(join(d, f)).isDirectory() ? walk(join(d, f)) : f.endsWith('.html') ? [join(d, f)] : []));
 const only = process.argv.slice(2);
-const pages = only.length ? only : walk('dist').map((f) => f.slice(5).replace(/\\/g, '/')).filter((f) => !f.startsWith('capture/'));
+const pages = only.length ? only : walk('dist').map((f) => f.slice(5).replace(/\\/g, '/')).filter((f) => !f.startsWith('capture/') && f !== 'index.html'); // index.html 은 HOME 으로 넘기는 페이지
 
 const browser = await chromium.launch({ channel: 'chrome', headless: false, args: ['--headless=new'] });
 const page = await browser.newPage({ viewport: { width: 1400, height: 900 } });

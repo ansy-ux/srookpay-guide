@@ -11,11 +11,11 @@ source: https://srookpay.com/view/new_guide/setting/main_display.html
 src: images/main_display_01.png
 alt: 메인 전시 관리 화면
 captured: 2026-10
-1: 0.6 16.8
-2: 68.8 16.8
-3: 78.4 16.8
-4: 83.3 16.8
-5: 58.3 29.6
+1: 0.6 16.8 box 1.6 15.7 4.6 2.5
+2: 68.8 16.8 box 69.7 15.7 8.1 2.5
+3: 78.4 16.8 box 79.3 15.7 4.1 2.5
+4: 83.3 16.8 box 84.7 15.7 9 2.5
+5: 58.3 29.6 box 59.2 28.4 4.1 2.5
 ```
 
 ### 초기화 {#1}

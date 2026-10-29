@@ -11,7 +11,7 @@ source: https://srookpay.com/view/new_guide/setting/mall_notice_list.html
 src: images/mall_notice_list_title.png
 alt: 게시물 검색 화면
 captured: 2026-10
-1: 1.6 43.9
+1: 1.6 43.9 box 2.3 37.2 2.7 13
 ```
 
 ### 검색어 {#1}
@@ -26,7 +26,7 @@ alt: 공지사항 화면
 captured: 2026-10
 1: 13.3 2.8
 2: 19.5 2.8
-3: 88.5 97.6
+3: 88.5 97.6 box 93.1 96.2 3.1 3.2
 ```
 
 ### 전체선택/해제 {#1}

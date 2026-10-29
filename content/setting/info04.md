@@ -11,8 +11,8 @@ source: https://srookpay.com/view/new_guide/setting/info04.html
 src: images/info04_01.jpg
 alt: 배송 정책 이미지
 captured: 2026-10
-1: 1.6 18.2
-2: 1.6 24
+1: 1.6 18.2 box 2.3 16.5 4.3 3.3
+2: 1.6 24 box 34.1 22.3 6 3.3
 ```
 
 ### 지정 택배사 {#1}

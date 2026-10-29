@@ -11,10 +11,10 @@ source: https://srookpay.com/view/new_guide/accounts/deposit_cancel_accounts.htm
 src: images/deposit_cancel_accounts_title.png
 alt: 예치금 가상계좌 검색
 captured: 2026-10
-1: 0.6 28.6
-2: 0.6 44
-3: 0.6 59.6
-4: 44 77.1
+1: 0.6 28.6 box 2.3 24.3 5 8.5
+2: 0.6 44 box 2.3 39.8 3.4 8.5
+3: 0.6 59.6 box 2.3 55.3 3.4 8.5
+4: 44 77.1 box 43.9 77.7 6.1 15.5
 ```
 
 ### 가상 계좌번호 {#1}

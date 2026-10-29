@@ -104,6 +104,13 @@
     if (t) mk.insertAdjacentHTML('beforeend', `<span class="tip">${t}</span>`);
   });
 
+  // 번호에 마우스를 올리면 같은 번호의 점선 박스를 채워 영역을 강조한다.
+  document.querySelectorAll('.shot .bx').forEach((bx) => {
+    const mk = bx.parentElement.querySelector(`.mk[data-n="${bx.dataset.n}"]`);
+    mk?.addEventListener('mouseenter', () => bx.classList.add('on'));
+    mk?.addEventListener('mouseleave', () => bx.classList.remove('on'));
+  });
+
   // 하위 마커(1, 2, 3…) ↔ 같은 항목 안의 번호 목록을 서로 강조한다.
   document.querySelectorAll('.screen-sub').forEach((fig) => {
     const list = fig.closest('.item')?.querySelector('ol');
@@ -220,7 +227,7 @@
       if (fig.dataset.captured) lines.push(`captured: ${fig.dataset.captured}`);
       if (sub) lines.push('style: sub');
       markers().sort((a, b) => a.dataset.n - b.dataset.n).forEach((mk) => {
-        lines.push(`${mk.dataset.n}: ${parseFloat(mk.style.left).toFixed(1)} ${parseFloat(mk.style.top).toFixed(1)}`);
+        lines.push(`${mk.dataset.n}: ${parseFloat(mk.style.left).toFixed(1)} ${parseFloat(mk.style.top).toFixed(1)}${mk.dataset.box ? ` box ${mk.dataset.box}` : ''}`);
       });
       ta.value = '```screen\n' + lines.join('\n') + '\n```';
     };

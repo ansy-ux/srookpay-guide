@@ -11,6 +11,48 @@
   "mask": [],
   "targets": [
     {
+      "id": "home/main_01",
+      "page": "home/main.md (HOME)",
+      "alt": "판매관리자 메뉴 화면",
+      "markers": 9,
+      "url": "/newsrp/Main/Index",
+      "image": "home/images/main_01.png",
+      "selector": ".side_inner .seller_info",
+      "include": [
+        ".side_inner fieldset.search_side"
+      ],
+      "pad": 20,
+      "steps": [
+        {
+          "sleep": 1500
+        },
+        {
+          "eval": "for (const s of [\"#popupGuide\", \"#popbill_popup\", \".layer_bg\"]) document.querySelectorAll(s).forEach((e) => e.style.setProperty(\"display\", \"none\", \"important\")); document.querySelectorAll(\"#footer\").forEach((e) => e.style.setProperty(\"visibility\", \"hidden\", \"important\"));"
+        }
+      ]
+    },
+    {
+      "id": "home/main_07",
+      "page": "home/main.md (HOME)",
+      "alt": "쇼핑몰 현황 화면",
+      "markers": 5,
+      "url": "/newsrp/Main/Index",
+      "image": "home/images/main_07.png",
+      "selector": ".home_wrap",
+      "include": [
+        ".home_wrap .right_side"
+      ],
+      "pad": 16,
+      "steps": [
+        {
+          "sleep": 1500
+        },
+        {
+          "eval": "for (const s of [\"#popupGuide\", \"#popbill_popup\", \".layer_bg\"]) document.querySelectorAll(s).forEach((e) => e.style.setProperty(\"display\", \"none\", \"important\")); document.querySelectorAll(\"#footer\").forEach((e) => e.style.setProperty(\"visibility\", \"hidden\", \"important\"));"
+        }
+      ]
+    },
+    {
       "id": "accounts/calendar_01",
       "page": "accounts/calendar.md (정산달력)",
       "alt": "정산달력",
@@ -2799,14 +2841,40 @@
       "id": "setting/info01_02",
       "page": "setting/info01.md (기본정보)",
       "alt": "사업자 정보 이미지",
-      "markers": 12,
+      "markers": 10,
       "url": "/newsrp/Setting/info",
       "selector": "",
       "image": "setting/images/info01_02.png",
       "fitChecked": true,
       "from": "사업자 정보",
-      "to": "끝",
-      "maxHeight": 1900
+      "to": "관심 카테고리"
+    },
+    {
+      "id": "setting/info01_13",
+      "page": "setting/info01.md (기본정보)",
+      "alt": "관심 카테고리 이미지",
+      "markers": 0,
+      "url": "/newsrp/Setting/info",
+      "image": "setting/images/info01_13.png",
+      "from": "관심 카테고리"
+    },
+    {
+      "id": "setting/info01_14",
+      "page": "setting/info01.md (기본정보)",
+      "alt": "운영형태 이미지",
+      "markers": 1,
+      "url": "/newsrp/Setting/info",
+      "image": "setting/images/info01_14.png",
+      "from": "운영형태"
+    },
+    {
+      "id": "setting/info01_15",
+      "page": "setting/info01.md (기본정보)",
+      "alt": "비밀번호 변경 이미지",
+      "markers": 1,
+      "url": "/newsrp/Setting/info",
+      "image": "setting/images/info01_15.png",
+      "from": "비밀번호 변경"
     },
     {
       "id": "setting/info01_03",

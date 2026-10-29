@@ -1040,7 +1040,7 @@
   "reviewed": "2026-10-29"
  },
  "content/home/images/main_01.png": {
-  "sha256": "daf957b07891d8d5214ee739ffe3ad14fe965f405c136ce5cf7e4ad115588dba",
+  "sha256": "7cf08e625c0247e4d18746809ecb8cd0552364e1673dcbf18388e398de7dadf3",
   "reviewed": "2026-10-29"
  },
  "content/home/images/main_02.png": {
@@ -1064,7 +1064,7 @@
   "reviewed": "2026-10-29"
  },
  "content/home/images/main_07.png": {
-  "sha256": "212aaee2233f90c089f64587a52570dc321294c6f19dd89115d818346c0f7c02",
+  "sha256": "bf4a6c46ed9d56921c4175d161219063ea7a8b3b4a3187b4b79d80c3b9d7cd7a",
   "reviewed": "2026-10-29"
  },
  "content/member/images/coupon_history_list_01_01.jpg": {
@@ -1300,7 +1300,7 @@
   "reviewed": "2026-10-29"
  },
  "content/setting/images/info01_02.png": {
-  "sha256": "f724ca6254fbb6d9a95bb1169c1f496a29750bfa0823acf50e5e01409be8c1f3",
+  "sha256": "5e262b65870402d54dede0ba10bec85dec77ea4d78f9f8280775506578c6c44d",
   "reviewed": "2026-10-29"
  },
  "content/setting/images/info01_03.png": {
@@ -1341,6 +1341,18 @@
  },
  "content/setting/images/info01_12.png": {
   "sha256": "46640a5a6c6f228a79dd3a12d2afd43c7a2619e3a7a717384fc127dd2675de28",
+  "reviewed": "2026-10-29"
+ },
+ "content/setting/images/info01_13.png": {
+  "sha256": "1f3eb44fb97fab880a728ddd1549434612254eca19f383ef6e4d96b0a4a72761",
+  "reviewed": "2026-10-29"
+ },
+ "content/setting/images/info01_14.png": {
+  "sha256": "f347439b1abcedd14072923be8391cf1259b153fd185e9b1c9cb5e08555e8d3c",
+  "reviewed": "2026-10-29"
+ },
+ "content/setting/images/info01_15.png": {
+  "sha256": "af6043b4380847b41d99ff488f890cefcb17937ba2a493fa4c65ad00b7198970",
   "reviewed": "2026-10-29"
  },
  "content/setting/images/info02_02.jpg": {

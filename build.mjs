@@ -15,6 +15,8 @@ const hasPage = (rel) => existsSync(join(SRC, rel.replace(/\.html$/, '.md')));
 
 // 메뉴: 본문이 없는 상위 메뉴(예: 셀럽션 > 상품관리)는 첫 하위 페이지로 연결한다
 const NAV = JSON.parse(readFileSync(join(SRC, '_nav.json'), 'utf8'));
+// GNB(상단 메뉴)에서만 빼는 대분류. 페이지와 HOME 사이트맵·검색에는 그대로 남는다.
+const GNB_HIDE = new Set(['링크셀러', '무통장자동입금확인']);
 for (const s of NAV) for (const g of s.groups) for (const i of g.items) {
   if ((!i.href || !hasPage(i.href)) && i.children) i.href = i.children.find((c) => c.href && hasPage(c.href))?.href;
 }
@@ -46,8 +48,10 @@ function parseScreen(text) {
     if (!m) continue;
     const [, key, val] = m;
     if (/^\d+$/.test(key.trim())) {
-      const [x, y] = val.split(/\s+/).map(Number);
-      screen.markers.push({ n: Number(key), x, y });
+      // "번호: x y box 왼쪽 위 너비 높이" 처럼 box 를 붙이면 그 영역에 점선 박스를 그린다 (모두 이미지 대비 %)
+      const [x, y, kw, ...b] = val.split(/\s+/);
+      const box = kw === 'box' && b.length === 4 ? b.map(Number) : null;
+      screen.markers.push({ n: Number(key), x: Number(x), y: Number(y), box });
     } else {
       screen[key.trim()] = val.trim();
     }
@@ -84,14 +88,18 @@ function renderScreen(s, now, group, dir) {
   const markers = s.markers.map((mk) => {
     const tag = sub ? 'span' : 'a';
     const href = sub ? '' : ` href="#m-${group}-${mk.n}"`;
-    return `<${tag} class="mk${sub ? ' mk-sub' : ''}" data-n="${mk.n}"${href} style="left:${mk.x}%;top:${mk.y}%">${mk.n}</${tag}>`;
+    const box = mk.box ? ` data-box="${mk.box.join(' ')}"` : '';
+    return `<${tag} class="mk${sub ? ' mk-sub' : ''}" data-n="${mk.n}"${box}${href} style="left:${mk.x}%;top:${mk.y}%">${mk.n}</${tag}>`;
   }).join('');
+  // 박스는 번호보다 먼저 그려서 번호 아래에 깔리게 한다
+  const boxes = s.markers.filter((mk) => mk.box).map(({ n, box: [l, t, w, h] }) =>
+    `<span class="bx" data-n="${n}" style="left:${l}%;top:${t}%;width:${w}%;height:${h}%"></span>`).join('');
   const stale = s.captured && monthsSince(s.captured, now) > STALE_MONTHS
     ? `<p class="stale">이 화면은 ${esc(s.captured)} 캡처본이라 지금 화면과 다를 수 있어요.</p>` : '';
   const cap = s.captured ? ` data-captured="${esc(s.captured)}"` : '';
   const size = dir && imageSize(join(dir, s.src));
   return `<figure class="screen${sub ? ' screen-sub' : ''}" data-src="${esc(s.src)}"${cap}${sub ? ' data-style="sub"' : ''}>
-  ${stale}<div class="shot"><img src="${esc(s.src)}" alt="${esc(s.alt || '')}"${size ? ` width="${size[0]}" height="${size[1]}"` : ''} loading="lazy">${markers}</div>
+  ${stale}<div class="shot"><img src="${esc(s.src)}" alt="${esc(s.alt || '')}"${size ? ` width="${size[0]}" height="${size[1]}"` : ''} loading="lazy">${boxes}${markers}</div>
 </figure>`;
 }
 
@@ -181,7 +189,8 @@ function layout(relPath, { meta, html, toc }) {
   const link = (href) => (href.startsWith('http') ? href : root + href);
   // 맨 앞 홈 아이콘 → 판매관리자 첫 화면 안내(home/main)
   const home = `<a class="home${dir === 'home' ? ' on' : ''}" href="${root}home/main.html" title="HOME"><img src="${root}assets/ico_home.svg" alt="HOME" width="24" height="20"></a>`;
-  const topMenu = home + NAV.map((s) => `<a href="${link(s.entry)}"${s === section ? ' class="on"' : ''}>${esc(s.name)}</a>`).join('');
+  const topMenu = home + NAV.filter((s) => !GNB_HIDE.has(s.name)).map((s) => `<a href="${link(s.entry)}"${s === section ? ' class="on"' : ''}>${esc(s.name)}</a>`).join('')
+    + `<a class="all${relPath === 'sitemap.html' ? ' on' : ''}" href="${root}sitemap.html">전체메뉴</a>`;
   const navItem = (i) => {
     const kids = i.children?.filter((c) => c.href && c.href !== i.href || i.children.length > 1) || [];
     const active = i.href === relPath || kids.some((c) => c.href === relPath);
@@ -200,7 +209,7 @@ function layout(relPath, { meta, html, toc }) {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>스룩페이 매뉴얼${meta.title && relPath !== 'index.html' ? ` - ${esc(meta.title)}` : ''}</title>
+<title>스룩페이 매뉴얼${meta.title ?` - ${esc(meta.title)}` : ''}</title>
 <link rel="icon" href="${root}assets/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" href="${root}assets/favicon_32.png" sizes="32x32">
 <link rel="apple-touch-icon" href="${root}assets/favicon_152.png">
@@ -209,7 +218,7 @@ function layout(relPath, { meta, html, toc }) {
 <body data-root="${root}">
 <header class="top">
   <div class="top-row">
-    <div class="brand"><a href="${root}index.html"><img src="${root}assets/logo-srookpay.png" alt="srookpay" width="200" height="43"><span>판매관리자 매뉴얼</span></a></div>
+    <div class="brand"><a href="${root}home/main.html"><img src="${root}assets/logo-srookpay.png" alt="srookpay" width="200" height="43"><span>판매관리자 매뉴얼</span></a></div>
     <div class="search" role="search">
       <input type="search" id="q" placeholder="궁금한 기능을 검색해 보세요 (예: 송장, 배송비)" autocomplete="off" aria-label="매뉴얼 검색" aria-controls="q-results">
       <label for="q" class="search-ico" title="검색 (단축키 /)"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg></label>
@@ -256,13 +265,20 @@ function indexPageText(relPath, meta, html) {
   }
 }
 
-// 첫 화면: 전체 메뉴 한눈에 보기
-function indexPage() {
+// 전체메뉴(GNB 오른쪽 링크): 전체 메뉴 한눈에 보기
+function sitemapPage() {
   const body = NAV.map((s) => `<section class="map-sec"><h2><a href="${s.entry}">${esc(s.name)}</a></h2>${s.groups.map((g) =>
     `<ul>${g.items.map((i) => `<li><a href="${i.href}">${esc(i.name)}</a>${i.children?.length > 1 ? `<ul>${i.children.map((c) =>
       `<li><a href="${c.href}">${esc(c.name)}</a></li>`).join('')}</ul>` : ''}</li>`).join('')}</ul>`).join('')}</section>`).join('');
-  return layout('index.html', { meta: { title: '스룩페이 이용가이드', section: '전체 메뉴' }, html: `<div class="sitemap">${body}</div>`, toc: [] });
+  return layout('sitemap.html', { meta: { title: '전체메뉴' }, html: `<div class="sitemap">${body}</div>`, toc: [] });
 }
+
+// 사이트 주소(/)로 들어오면 HOME 으로 보낸다
+const indexPage = () => `<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><title>스룩페이 매뉴얼</title>
+<meta http-equiv="refresh" content="0; url=home/main.html"><link rel="canonical" href="home/main.html"></head>
+<body><a href="home/main.html">스룩페이 매뉴얼 HOME 으로 이동</a></body></html>
+`;
 
 const now = new Date();
 rmSync(OUT, { recursive: true, force: true });
@@ -282,6 +298,7 @@ for (const file of walk(SRC)) {
     copyFileSync(file, dest);
   }
 }
+writeFileSync(join(OUT, 'sitemap.html'), sitemapPage());
 writeFileSync(join(OUT, 'index.html'), indexPage());
 mkdirSync(join(OUT, 'assets'), { recursive: true });
 for (const f of readdirSync('assets')) copyFileSync(join('assets', f), join(OUT, 'assets', f));

@@ -11,10 +11,10 @@ source: https://srookpay.com/view/new_guide/member/sleep_member_list.html
 src: images/sleep_member_list_01.jpg
 alt: 휴면 및 정보파기 리스트
 captured: 2026-10
-1: 1.6 16.8
-2: 47.4 16.8
-3: 43.5 33
-4: 49.2 69.5
+1: 1.6 16.8 box 2.3 14.3 3.4 5
+2: 47.4 16.8 box 48 14.3 3.4 5
+3: 43.5 33 box 43.9 28.4 6.1 9.1
+4: 49.2 69.5 box 49.7 66.7 3.6 5.4
 5: 73 69.4
 ```
 
@@ -44,7 +44,7 @@ captured: 2026-10
 src: images/sleep_member_list_02.jpg
 alt: 휴면 및 정보파기 상세
 captured: 2026-10
-1: 1 1
+1: 1 1 box 1 0.8 11.5 2.9
 2: 1 36.9
 3: 1 77.1
 ```

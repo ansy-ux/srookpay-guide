@@ -11,10 +11,10 @@ source: https://srookpay.com/view/new_guide/goods/goods_08.html
 src: images/msg_01.jpg
 alt: 메시지
 captured: 2026-10
-1: 1.7 7.6
-2: 1.7 11.5
-3: 1.7 22.1
-4: 57.2 18.4
+1: 1.7 7.6 box 2.3 6.3 3.4 2.6
+2: 1.7 11.5 box 2.3 10.2 5 2.6
+3: 1.7 22.1 box 2.3 20.7 3.4 2.6
+4: 57.2 18.4 box 57.7 19 6.1 4.7
 5: 12.7 19
 ```
 

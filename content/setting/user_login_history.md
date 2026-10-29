@@ -10,7 +10,7 @@ source: https://srookpay.com/view/new_guide/setting/user_login_history.html
 ```screen
 src: images/user_login_history_01.png
 alt: 로그인 이력
-1: 21.6 25.0
+1: 21.6 25.0 box 15 18.1 8.4 14.7
 2: 42.8 25.0
 3: 63.9 25.0
 4: 87.8 25.0

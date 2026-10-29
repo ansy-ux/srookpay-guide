@@ -11,11 +11,11 @@ source: https://srookpay.com/view/new_guide/setting/db_logging_list.html
 src: images/db_logging_list_01.png
 alt: 변경이력
 captured: 2026-10
-1: 7.9 27.5
-2: 24.6 27.5
-3: 40.9 27.5
-4: 62.1 27.5
-5: 85 27.5
+1: 7.9 27.5 box 8.5 26.3 2.7 2.3
+2: 24.6 27.5 box 24.4 26.3 2 2.3
+3: 40.9 27.5 box 41.6 26.3 2 2.3
+4: 62.1 27.5 box 62.6 26.3 3.4 2.3
+5: 85 27.5 box 85.6 26.3 3.4 2.3
 ```
 
 ### 아이디 {#1}

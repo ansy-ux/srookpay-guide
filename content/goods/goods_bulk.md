@@ -11,7 +11,7 @@ source: https://srookpay.com/view/new_guide/goods/goods_bulk.html
 src: images/prd_regist_bulk_title.png
 alt: 상품대량등록 양식 다운로드 및 업로드 화면
 captured: 2026-10
-1: 1.6 71.2
+1: 1.6 71.2 box 2.3 66.8 13.9 9
 ```
 
 ### 상품대량등록 양식 다운로드 및 업로드 {#1}
@@ -50,9 +50,9 @@ alt: 예상결과 화면
 ```screen
 src: images/prd_regist_bulk_failed_title.png
 alt: 실패건수 상세보기 화면
-1: 16.6 17.1
+1: 16.6 17.1 box 20.1 21.1 18.3 9.5
 2: 18.1 39.2
-3: 63.2 39.2
+3: 63.2 39.2 box 64.4 40.2 3.2 10.6
 ```
 
 ### 상품대량등록 실패사유 내려받기 {#1}

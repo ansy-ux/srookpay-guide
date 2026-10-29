@@ -11,9 +11,9 @@ source: https://srookpay.com/view/new_guide/celeb/celeb_03.html
 src: images/celeb_03_01.png
 alt: 셀럽 판매 일정 관리
 captured: 2026-10
-1: 1.7 38.1
-2: 39.3 38.1
-3: 1.7 58.7
+1: 1.7 38.1 box 2.3 32.4 5.4 11.3
+2: 39.3 38.1 box 39.9 32.4 3.4 11.3
+3: 1.7 58.7 box 2.3 53.1 3.4 11.3
 4: 1 99
 5: 13 99
 ```

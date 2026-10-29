@@ -16,6 +16,8 @@ export const unfix = (page, keepPopups = false) => page.evaluate((keepPopups) =>
       el.style.setProperty('visibility', 'hidden', 'important');
     }
   }
+  // 계정에 따라 처음부터 뜨는 안내 팝업(현금영수증·정산계좌 안내 등)은 고정 요소가 아니어도 숨긴다
+  if (!keepPopups) for (const el of document.querySelectorAll('.pop_layer, .layer_wrap, .layer_bg, #popbill_popup')) el.style.setProperty('display', 'none', 'important');
 }, keepPopups);
 
 // 본문(root) 안의 묶음 제목 목록. 제목 = 직접 글자가 있고 17px 이상·굵은 글씨인 요소 (관리자는 h4 18px/600).
@@ -77,7 +79,7 @@ export const maskPrivate = (page, words = []) => page.evaluate((words) => {
   const COLOR = '#dddddd';
   const root = document.querySelector('#contents') || document.body;
   const esc = (t) => t.replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
-  const bar = (t) => `<span style="background:${COLOR};color:transparent;border-radius:2px;-webkit-box-decoration-break:clone;box-decoration-break:clone">${esc(t)}</span>`;
+  const bar = (t) => `<span style="display:inline;width:auto;background:${COLOR};color:transparent;border-radius:2px;-webkit-box-decoration-break:clone;box-decoration-break:clone">${esc(t)}</span>`;
   // 글자 덩어리 하나를 막대로 (앞뒤 공백은 남김)
   const maskText = (n, onlyMatches) => {
     const t = n.textContent;
@@ -156,8 +158,9 @@ export const maskPrivate = (page, words = []) => page.evaluate((words) => {
     el.style.setProperty('background', COLOR, 'important');
     el.querySelectorAll('img').forEach((img) => img.style.setProperty('visibility', 'hidden', 'important'));
   }
-  // 3) 그 밖의 글자 속 휴대폰·이메일 (그 부분만)
-  for (const n of textNodes(root)) {
+  // 3) 그 밖의 글자 속 휴대폰·이메일·가릴 단어 (그 부분만). 왼쪽 메뉴(#side_area)의 판매자 아이디도 여기서 가린다
+  const side = document.querySelector('#side_area');
+  for (const n of [...textNodes(root), ...(side && !root.contains(side) ? textNodes(side) : [])]) {
     if (n.parentElement?.closest('[data-masked]')) continue;
     const t = n.textContent;
     const hits = [...t.matchAll(new RegExp(`${PHONE.source}|${EMAIL.source}`, 'g'))];

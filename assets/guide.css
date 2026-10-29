@@ -55,7 +55,7 @@ a { color: inherit; }
 .item { padding-top: 28px; margin-top: 28px; border-top: 1px dashed var(--line); scroll-margin-top: calc(var(--hdr) + 8px); }
 .doc h2[id] { scroll-margin-top: calc(var(--hdr) + 16px); }
 .doc h2 ~ h2 { margin-top: 48px; }
-.doc h2 + .screen { padding: 16px; background: #E6E9EF; }
+.doc h2 + .screen { padding: 16px; background: #E6E9EF; text-align: center; }
 .doc h2 + .screen .shot { vertical-align: top; }
 .item h3 { display: flex; align-items: flex-start; gap: 8px; margin: 0 0 6px; font-size: 18px; line-height: 28px; }
 .item h3 .num { margin-top: 2px; }

@@ -13,9 +13,9 @@ source: https://srookpay.com/view/new_guide/setting/info11.html
 src: images/info11_01.jpg
 alt: 채널 리스트
 captured: 2026-10
-1: 81.1 53.3
-2: 95.6 53.0
-3: 41.0 68.4
+1: 1 43
+2: 95.6 53
+3: 41 68.4
 ```
 
 ### 다중계정 아이디 불러오기> {#1}

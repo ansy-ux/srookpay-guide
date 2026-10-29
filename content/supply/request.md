@@ -11,8 +11,8 @@ source: https://srookpay.com/view/new_guide/supply/request.html
 src: images/supply_9_1.png
 alt: 발주관리 신청
 captured: 2026-10
-1: 24.8 8.9
-2: 59.8 99.0
+1: -1 5.8
+2: 59.8 99
 ```
 
 ### 발주관리 서비스 {#1}

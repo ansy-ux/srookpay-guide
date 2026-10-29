@@ -11,8 +11,8 @@ source: https://srookpay.com/view/new_guide/setting/info03.html
 src: images/info03_payment_title.png
 alt: 결제방법설정 이미지
 captured: 2026-10
-1: 1.0 6.9
-2: 1.0 61.7
+1: 1.4 8.6
+2: 1.6 69.5
 ```
 
 ### [필수항목] 결제방법 {#1}
@@ -43,9 +43,9 @@ alt: 필수항목 혜택 이미지
 src: images/info03_04.jpg
 alt: 현금영수증 설정
 captured: 2026-10
-1: 1.0 5.9
-2: 1.0 14.9
-3: 1.0 19.6
+1: 1.6 10.2
+2: 1.6 20.2
+3: 1.6 25.3
 ```
 
 ### 팝빌 가입정보 {#1}
@@ -71,7 +71,7 @@ alt: 상품목록_상품명 노출
 src: images/info03_06.jpg
 alt: 무통장 설정
 captured: 2026-10
-1: 1.0 1.0
+1: 0 3.8
 ```
 
 ### 무통장 설정 {#1}

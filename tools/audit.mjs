@@ -33,7 +33,7 @@ for (const p of pages) {
     const dup = ids.filter((id, i) => ids.indexOf(id) !== i);
     const missing = [...document.querySelectorAll('a[href^="#"]')].map((a) => a.getAttribute('href')).filter((h) => h.length > 1 && !document.getElementById(decodeURIComponent(h.slice(1))));
     const broken = [...document.images].filter((i) => !i.naturalWidth).map((i) => i.getAttribute('src'));
-    const badMk = [...document.querySelectorAll('.mk')].filter((m) => { const x = parseFloat(m.style.left), y = parseFloat(m.style.top); return !(x >= 0 && x <= 100 && y >= 0 && y <= 100); }).map((m) => m.dataset.n);
+    const badMk = [...document.querySelectorAll('.mk')].filter((m) => { const x = parseFloat(m.style.left), y = parseFloat(m.style.top); return !(x >= -3 && x <= 100 && y >= 0 && y <= 100); }).map((m) => m.dataset.n);
     const toc = [...document.querySelectorAll('.toc li:not(.grp) a')].map((a) => a.hash);
     return { dup: [...new Set(dup)], missing: [...new Set(missing)], broken, badMk, toc };
   });

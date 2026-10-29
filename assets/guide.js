@@ -210,7 +210,7 @@
 
     const pct = (e) => {
       const r = img.getBoundingClientRect();
-      const clamp = (v) => Math.min(100, Math.max(0, v));
+      const clamp = (v) => Math.min(100, Math.max(-3, v)); // 왼쪽은 이미지 밖으로 조금(번호가 이름표를 가리지 않게)
       return [clamp(((e.clientX - r.left) / r.width) * 100), clamp(((e.clientY - r.top) / r.height) * 100)];
     };
     const markers = () => [...shot.querySelectorAll('.mk')];

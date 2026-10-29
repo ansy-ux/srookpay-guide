@@ -11,11 +11,11 @@ source: https://srookpay.com/view/new_guide/goods/goods_08.html
 src: images/msg_01.jpg
 alt: 메시지
 captured: 2026-10
-1: 1.0 5.2
-2: 48.2 7.5
-3: 1.0 25.3
-4: 72.9 13.5
-5: 25.8 18.8
+1: 1.7 7.6
+2: 1.7 11.5
+3: 1.7 22.1
+4: 57.2 18.4
+5: 12.7 19
 ```
 
 ### 운영상태 {#1}

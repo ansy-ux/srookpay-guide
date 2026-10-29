@@ -11,12 +11,12 @@ source: https://srookpay.com/view/new_guide/order/deal01.html
 src: images/deal01_title.png
 alt: 전체 리스트 화면
 captured: 2026-10
-1: 16.8 6.6
-2: 1.0 11.3
-3: 54.2 11.6
-4: 75.0 11.8
-5: 15.7 30.3
-6: 27.0 33.6
+1: 20.8 6
+2: 2 19.5
+3: 51 14.2
+4: 81.5 14.2
+5: 18.6 28.1
+6: 24.9 31.9
 ```
 
 ### SMS발송 {#1}

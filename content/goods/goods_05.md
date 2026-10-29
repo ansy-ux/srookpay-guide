@@ -11,11 +11,11 @@ source: https://srookpay.com/view/new_guide/goods/goods_05.html
 src: images/category.png
 alt: 카테고리 리스트 화면
 captured: 2026-10
-1: 1.0 7.2
-2: 1.0 32.8
-3: 11.0 44.2
-4: 43.4 44.2
-5: 85.8 44.2
+1: 1.6 16.7
+2: 0.9 47.3
+3: 9.2 55
+4: 39.3 55
+5: 81.3 55
 ```
 
 ### 새 카테고리 입력 {#1}

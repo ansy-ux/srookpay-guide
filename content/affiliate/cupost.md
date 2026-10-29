@@ -13,8 +13,8 @@ source: https://srookpay.com/view/new_guide/affiliate/cupost.html
 src: images/affilliate_smartpost_title.png
 alt: CU POST 란? 화면
 captured: 2026-10
-1: 28.4 99.0
-2: 71.9 99.0
+1: 28.4 99
+2: 71.9 99
 ```
 
 <a id="affilliate_smartpost_01"></a>

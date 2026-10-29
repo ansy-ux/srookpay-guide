@@ -11,11 +11,11 @@ source: https://srookpay.com/view/new_guide/setting/info09.html
 src: images/info09_01.png
 alt: 부계정 리스트
 captured: 2026-10
-1: 84.9 39.9
-2: 21.9 62.6
-3: 38.9 62.6
-4: 63.1 62.6
-5: 87.9 62.6
+1: 93.1 41.5
+2: 12.8 63
+3: 31.7 66.6
+4: 59.2 63
+5: 88 63
 ```
 
 ### 부계정 등록+ {#1}

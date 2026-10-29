@@ -11,7 +11,7 @@ source: https://srookpay.com/view/new_guide/goods/goods_bulk.html
 src: images/prd_regist_bulk_title.png
 alt: 상품대량등록 양식 다운로드 및 업로드 화면
 captured: 2026-10
-1: 1.0 58.2
+1: 1.6 71.2
 ```
 
 ### 상품대량등록 양식 다운로드 및 업로드 {#1}

@@ -11,10 +11,10 @@ source: https://srookpay.com/view/new_guide/celeb/celeb_05.html
 src: images/celeb_05_01.jpg
 alt: 판매제안 목록
 captured: 2026-10
-1: 4.8 5.6
-2: 20.3 5.6
-3: 53.5 5.6
-4: 86.5 5.6
+1: 9.5 23.4
+2: 36.6 23.4
+3: 53.8 23.5
+4: 88.2 23.5
 ```
 
 ### 셀럽명 {#1}

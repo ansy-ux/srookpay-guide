@@ -11,11 +11,11 @@ source: https://srookpay.com/view/new_guide/member/sleep_member_list.html
 src: images/sleep_member_list_01.jpg
 alt: 휴면 및 정보파기 리스트
 captured: 2026-10
-1: 1.0 9.8
-2: 46.6 9.8
-3: 39.3 23.7
-4: 83.3 62.2
-5: 94.7 63.3
+1: 1.6 16.8
+2: 47.4 16.8
+3: 43.5 33
+4: 49.2 69.5
+5: 73 69.4
 ```
 
 ### 회원검색 {#1}
@@ -44,9 +44,9 @@ captured: 2026-10
 src: images/sleep_member_list_02.jpg
 alt: 휴면 및 정보파기 상세
 captured: 2026-10
-1: 1.0 1.0
-2: 1.0 36.9
-3: 1.0 77.1
+1: 1 1
+2: 1 36.9
+3: 1 77.1
 ```
 
 ### 회원 기본정보 {#1}

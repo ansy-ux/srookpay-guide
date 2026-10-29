@@ -11,12 +11,12 @@ source: https://srookpay.com/view/new_guide/setting/subuser_auth_group.html
 src: images/subuser_auth_group_title.png
 alt: 그룹별 권한 관리
 captured: 2026-10
-1: 18.4 30.3
-2: 36.7 30.3
-3: 64.2 30.3
-4: 90.7 30.3
-5: 98.8 20.7
-6: 82.8 20.7
+1: 14 41.2
+2: 32.4 41.3
+3: 59.6 41.2
+4: 88 41.2
+5: 93.8 23.1
+6: 86 22.9
 ```
 
 ### 그룹명 {#1}

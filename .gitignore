@@ -11,3 +11,4 @@ capture/ocr-all.json
 .claude/
 capture/audit.json
 capture/remaining.json
+capture/fit-markers.json

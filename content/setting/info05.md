@@ -11,7 +11,7 @@ source: https://srookpay.com/view/new_guide/setting/info05.html
 src: images/info05_01.jpg
 alt: 자동배송처리 설정
 captured: 2026-10
-1: 1.0 34.5
+1: 0 10.3
 ```
 
 ### 자동배송처리 설정 {#1}

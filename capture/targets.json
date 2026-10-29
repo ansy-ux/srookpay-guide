@@ -4321,8 +4321,10 @@
       "url": "/newsrp/Supply/accountnew",
       "selector": "",
       "image": "supply/images/supply_8_2.png",
-      "from": "주문 검색",
-      "fitChecked": true
+      "from": "물류업체 정산 리스트",
+      "fitChecked": true,
+      "maxHeight": 420,
+      "note": "샘플 데이터 없음 (목록이 비어 있어 예전 이미지 유지)"
     },
     {
       "id": "supply/supply_8_3",
@@ -4837,8 +4839,10 @@
       "url": "/newsrp/Supply/supply01",
       "selector": "",
       "image": "supply/images/supply_4_1.png",
-      "from": "발주요청 검색",
-      "fitChecked": true
+      "from": "발주요청 리스트",
+      "fitChecked": true,
+      "maxHeight": 420,
+      "note": "샘플 데이터 없음 (목록이 비어 있어 예전 이미지 유지)"
     },
     {
       "id": "supply/supply_4_2",
@@ -4931,8 +4935,10 @@
       "url": "/newsrp/Supply/supply01?so_order_status=CREATE",
       "selector": "",
       "image": "supply/images/supply_5_2.png",
-      "from": "발주요청 검색",
-      "fitChecked": true
+      "from": "발주요청 리스트",
+      "fitChecked": true,
+      "maxHeight": 420,
+      "note": "샘플 데이터 없음 (목록이 비어 있어 예전 이미지 유지)"
     },
     {
       "id": "supply/supply_5_3",

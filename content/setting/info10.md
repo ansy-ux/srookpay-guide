@@ -13,8 +13,8 @@ source: https://srookpay.com/view/new_guide/setting/info10.html
 src: images/info10_01.jpg
 alt: 다중계정 리스트
 captured: 2026-10
-1: 47.1 46.4
-2: 95.0 17.7
+1: 45.7 63.7
+2: 92.5 49.4
 ```
 
 ### 판매 채널명 {#1}

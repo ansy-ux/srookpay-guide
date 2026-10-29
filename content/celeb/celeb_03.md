@@ -11,11 +11,11 @@ source: https://srookpay.com/view/new_guide/celeb/celeb_03.html
 src: images/celeb_03_01.png
 alt: 셀럽 판매 일정 관리
 captured: 2026-10
-1: 1.0 19.6
-2: 56.4 21.9
-3: 1.0 39.9
-4: 1.0 82.9
-5: 17.1 99.0
+1: 1.7 38.1
+2: 39.3 38.1
+3: 1.7 58.7
+4: 1 99
+5: 13 99
 ```
 
 ### PICK 상품 선택 {#1}

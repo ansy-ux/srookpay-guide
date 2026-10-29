@@ -1,0 +1,11 @@
+---
+title: 운영정책
+section: 환경설정
+updated: 2026-10-28
+status: draft
+admin: /newsrp/Setting/shop_policy_setting
+---
+
+## 운영정책
+
+이 메뉴의 안내는 준비 중입니다.

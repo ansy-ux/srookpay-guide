@@ -1,0 +1,510 @@
+[
+  {
+    "name": "기본정보",
+    "href": "/newsrp/Setting/info"
+  },
+  {
+    "name": "쇼핑몰 기본 설정",
+    "href": "/newsrp/Setting/shop"
+  },
+  {
+    "name": "메인전시관리",
+    "href": "/newsrp/Setting/main_display"
+  },
+  {
+    "name": "쇼핑몰 스타일",
+    "href": "/newsrp/Setting/shop_style"
+  },
+  {
+    "name": "로그인 및 API설정",
+    "href": "/newsrp/Setting/shop_multi_setting"
+  },
+  {
+    "name": "운영정책",
+    "href": "/newsrp/Setting/shop_policy_setting"
+  },
+  {
+    "name": "결제/무통장 설정",
+    "href": "/newsrp/Setting/pay"
+  },
+  {
+    "name": "배송설정",
+    "href": "/newsrp/Setting/delivery"
+  },
+  {
+    "name": "자동배송처리",
+    "href": "/newsrp/Setting/auto_delivery"
+  },
+  {
+    "name": "엑셀 내려받기 설정",
+    "href": "/newsrp/Setting/excel"
+  },
+  {
+    "name": "발주서 엑셀 양식 설정",
+    "href": "/newsrp/Setting/supply_excel"
+  },
+  {
+    "name": "상품 물류업체 설정",
+    "href": "/newsrp/Setting/center"
+  },
+  {
+    "name": "팝업 관리",
+    "href": "/newsrp/Setting/shop_popup"
+  },
+  {
+    "name": "페이지관리",
+    "href": "/newsrp/Setting/CustomPageList"
+  },
+  {
+    "name": "공지사항",
+    "href": "/newsrp/Setting/MallNoticeList"
+  },
+  {
+    "name": "FAQ",
+    "href": "/newsrp/Setting/FaqList"
+  },
+  {
+    "name": "이벤트",
+    "href": "/newsrp/Setting/MallEventList"
+  },
+  {
+    "name": "제휴제안",
+    "href": "/newsrp/Setting/ContactList"
+  },
+  {
+    "name": "개인정보 접속기록 조회",
+    "href": "/newsrp/Setting/admin_log_list"
+  },
+  {
+    "name": "변경 이력",
+    "href": "/newsrp/Setting/db_logging_list"
+  },
+  {
+    "name": "부계정설정",
+    "href": "/newsrp/Setting/account"
+  },
+  {
+    "name": "그룹별 권한 관리",
+    "href": "/newsrp/Setting/subuser_auth_group"
+  },
+  {
+    "name": "다중계정 설정",
+    "href": "/newsrp/Setting/multiaccount"
+  },
+  {
+    "name": "채널계정 설정",
+    "href": "/newsrp/Setting/channelaccount"
+  },
+  {
+    "name": "가상계좌 결제관리",
+    "href": "/newsrp/Setting/channel_pay"
+  },
+  {
+    "name": "신규주문",
+    "href": "/newsrp/Order/deal01?order_status=20&formtype=C"
+  },
+  {
+    "name": "미입금확인",
+    "href": "/newsrp/Order/deal01?order_status=10&formtype=B"
+  },
+  {
+    "name": "배송준비중",
+    "href": "/newsrp/Order/deal01?order_status=30,43&formtype=A"
+  },
+  {
+    "name": "배송중",
+    "href": "/newsrp/Order/deal01?order_status=41&formtype=B"
+  },
+  {
+    "name": "배송완료",
+    "href": "/newsrp/Order/deal01?order_status=42&formtype=B"
+  },
+  {
+    "name": "홈으로",
+    "href": "/newsrp/Main/index"
+  },
+  {
+    "name": "전체메뉴",
+    "href": "/newsrp/Popup/menuAll"
+  },
+  {
+    "name": "전체",
+    "href": "/newsrp/Order/deal01"
+  },
+  {
+    "name": "상품목록",
+    "href": "/newsrp/Good/goods_list"
+  },
+  {
+    "name": "상품등록",
+    "href": "/newsrp/Good/registration"
+  },
+  {
+    "name": "상품대량등록",
+    "href": "/newsrp/Good/bulkRegist"
+  },
+  {
+    "name": "구매후기관리",
+    "href": "/newsrp/Review/ReviewList"
+  },
+  {
+    "name": "상품문의관리",
+    "href": "/newsrp/Qna/GoodsQnaList"
+  },
+  {
+    "name": "카테고리관리",
+    "href": "/newsrp/Good/category"
+  },
+  {
+    "name": "메시지",
+    "href": "/newsrp/Good/Talk"
+  },
+  {
+    "name": "공급사목록",
+    "href": "/newsrp/Good/supply_admin_list"
+  },
+  {
+    "name": "상품 요청 목록",
+    "href": "/newsrp/Good/supply_authorize_goods"
+  },
+  {
+    "name": "주문현황",
+    "href": "/newsrp/Order/state"
+  },
+  {
+    "name": "상품별 주문관리",
+    "href": "/newsrp/Order/goods"
+  },
+  {
+    "name": "배송상품 주문관리",
+    "href": "/newsrp/Order/delivery"
+  },
+  {
+    "name": "채널별 주문현황",
+    "href": "/newsrp/Order/cdeal01"
+  },
+  {
+    "name": "정기구독 주문관리",
+    "href": "/newsrp/Order/Subs"
+  },
+  {
+    "name": "배송준비",
+    "href": "/newsrp/Order/deal01?order_status=30&formtype=C"
+  },
+  {
+    "name": "부분배송중",
+    "href": "/newsrp/Order/deal01?order_status=43&formtype=B"
+  },
+  {
+    "name": "배송예약",
+    "href": "/newsrp/Order/deal01?order_status=40&formtype=B"
+  },
+  {
+    "name": "주문자요청접수",
+    "href": "/newsrp/Order/deal09"
+  },
+  {
+    "name": "주문자요청관리",
+    "href": "/newsrp/Order/deal01?order_status=70,51,52,61,62&formtype=D"
+  },
+  {
+    "name": "주문취소",
+    "href": "/newsrp/Order/deal01?order_status=70&formtype=B"
+  },
+  {
+    "name": "반품관리",
+    "href": "/newsrp/Order/deal01?order_status=51,52&formtype=B"
+  },
+  {
+    "name": "교환관리",
+    "href": "/newsrp/Order/deal01?order_status=61,62&formtype=B"
+  },
+  {
+    "name": "휴지통",
+    "href": "/newsrp/Order/deal01?order_status=90&formtype=B"
+  },
+  {
+    "name": "주문대기",
+    "href": "/newsrp/Order/deal15"
+  },
+  {
+    "name": "무통장 입금알림내역",
+    "href": "/newsrp/Order/bank"
+  },
+  {
+    "name": "현금영수증 관리",
+    "href": "/newsrp/Order/receipt"
+  },
+  {
+    "name": "회원목록",
+    "href": "/newsrp/Member/MemberList"
+  },
+  {
+    "name": "휴면 및 정보파기 리스트",
+    "href": "/newsrp/Member/SleepMemberList"
+  },
+  {
+    "name": "회원등급 설정",
+    "href": "/newsrp/Member/GradeMasterList"
+  },
+  {
+    "name": "포인트 설정",
+    "href": "/newsrp/Point/PointSetting"
+  },
+  {
+    "name": "포인트 사용내역",
+    "href": "/newsrp/Point/PointHistoryList"
+  },
+  {
+    "name": "쿠폰 설정",
+    "href": "/newsrp/Coupon/CouponSetting"
+  },
+  {
+    "name": "쿠폰 목록",
+    "href": "/newsrp/Coupon/CouponMasterList"
+  },
+  {
+    "name": "쿠폰 사용내역",
+    "href": "/newsrp/Coupon/CouponHistoryList"
+  },
+  {
+    "name": "구매제한 고객관리",
+    "href": "/newsrp/Member/ManageLimitMember"
+  },
+  {
+    "name": "발주대기",
+    "href": "/newsrp/Supply/order01?autoSupplyPrependYN=N"
+  },
+  {
+    "name": "발주보류",
+    "href": "/newsrp/Supply/order01?autoSupplyPrependYN=Y"
+  },
+  {
+    "name": "물류업체 미등록",
+    "href": "/newsrp/Supply/order03"
+  },
+  {
+    "name": "전체",
+    "href": "/newsrp/Supply/supply01"
+  },
+  {
+    "name": "발주서 생성",
+    "href": "/newsrp/Supply/supply01?so_order_status=CREATE"
+  },
+  {
+    "name": "메일 발송 중",
+    "href": "/newsrp/Supply/supply01?so_order_status=SENT"
+  },
+  {
+    "name": "수신완료",
+    "href": "/newsrp/Supply/supply01?so_order_status=READ"
+  },
+  {
+    "name": "배송현황",
+    "href": "/newsrp/Supply/order02"
+  },
+  {
+    "name": "물류업체 송장등록",
+    "href": "/newsrp/Supply/deliveryinfo"
+  },
+  {
+    "name": "물류업체 정산조회",
+    "href": "/newsrp/Supply/accountnew"
+  },
+  {
+    "name": "발주관리 신청",
+    "href": "/newsrp/Supply/request"
+  },
+  {
+    "name": "발주관리 이용내역",
+    "href": "/newsrp/Supply/requesthistory"
+  },
+  {
+    "name": "SMS 설정",
+    "href": "/newsrp/Sms/sms_set"
+  },
+  {
+    "name": "SMS 메시지관리",
+    "href": "/newsrp/Sms/l_sms_list"
+  },
+  {
+    "name": "SMS 충전하기",
+    "href": "/newsrp/Sms/charge"
+  },
+  {
+    "name": "SMS 충전내역",
+    "href": "/newsrp/Sms/charge_list"
+  },
+  {
+    "name": "SMS 발송내역조회",
+    "href": "/newsrp/Sms/l_send_list"
+  },
+  {
+    "name": "알림톡 설정",
+    "href": "/newsrp/Sms/l_talk_set"
+  },
+  {
+    "name": "알림톡 발송내역조회",
+    "href": "/newsrp/Sms/l_talk_list"
+  },
+  {
+    "name": "기간별매출관리",
+    "href": "/newsrp/Account/new_sales"
+  },
+  {
+    "name": "상품별매출관리",
+    "href": "/newsrp/Account/prd_sales"
+  },
+  {
+    "name": "회원별매출관리",
+    "href": "/newsrp/Account/member"
+  },
+  {
+    "name": "정산달력",
+    "href": "/newsrp/Account/new_calendar"
+  },
+  {
+    "name": "기간별정산통계(빠른)",
+    "href": "/newsrp/Account/Fast_Accounts_Stats"
+  },
+  {
+    "name": "기간별정산통계(일반)",
+    "href": "/newsrp/Account/new_stats"
+  },
+  {
+    "name": "예치금입금관리",
+    "href": "/newsrp/Account/deposit"
+  },
+  {
+    "name": "예치금 계좌관리",
+    "href": "/newsrp/Account/deposit_cancel_accounts"
+  },
+  {
+    "name": "링크셀러 연동",
+    "href": "/newsrp/Sns/linkon_setup"
+  },
+  {
+    "name": "제휴서비스",
+    "href": "/newsrp/Marketing/aff_submain"
+  },
+  {
+    "name": "카카오싱크",
+    "href": "/newsrp/Marketing/kakaosync"
+  },
+  {
+    "name": "이카운트",
+    "href": "/newsrp/Marketing/ecount"
+  },
+  {
+    "name": "굿스플로",
+    "href": "/newsrp/Marketing/goods_flow"
+  },
+  {
+    "name": "발주모아",
+    "href": "/newsrp/Marketing/order_solution"
+  },
+  {
+    "name": "셀메이트",
+    "href": "/newsrp/Marketing/stock"
+  },
+  {
+    "name": "이지어드민",
+    "href": "/newsrp/Marketing/ez_admin"
+  },
+  {
+    "name": "스마트포스트",
+    "href": "/newsrp/Marketing/snsposting"
+  },
+  {
+    "name": "씨유포스트",
+    "href": "/newsrp/Marketing/aff_cu_cvs"
+  },
+  {
+    "name": "셀럽 목록",
+    "href": "/newsrp/CelebLink/celeb_list"
+  },
+  {
+    "name": "서비스 신청",
+    "href": "/newsrp/CelebLink/celeblink_service"
+  },
+  {
+    "name": "가입 페이지 설정",
+    "href": "/newsrp/CelebLink/celeblink_regist"
+  },
+  {
+    "name": "셀럽 판매 일정 관리",
+    "href": "/newsrp/CelebLink/celeb_schedule"
+  },
+  {
+    "name": "셀럽찾기",
+    "href": "/newsrp/CelebLink/find_celeb"
+  },
+  {
+    "name": "판매제안 목록",
+    "href": "/newsrp/CelebLink/celeb_suggest"
+  },
+  {
+    "name": "셀럽 PICK 상품 관리",
+    "href": "/newsrp/CelebLink/pick_goods_regist"
+  },
+  {
+    "name": "상품 PICK 승인 관리",
+    "href": "/newsrp/CelebLink/pick_goods_approval"
+  },
+  {
+    "name": "상품 그룹 마진 관리",
+    "href": "/newsrp/CelebLink/goods_group_margin_regist"
+  },
+  {
+    "name": "샘플 요청 리스트",
+    "href": "/newsrp/CelebLink/celeb_sample_list"
+  },
+  {
+    "name": "셀럽 판매상품 목록",
+    "href": "/newsrp/CelebLink/pick_sell_list"
+  },
+  {
+    "name": "주문 현황",
+    "href": "/newsrp/Order/deal01?celeb_only=true"
+  },
+  {
+    "name": "기간별 매출통계",
+    "href": "/newsrp/CelebLink/celeb_account_sales"
+  },
+  {
+    "name": "상품별 매출통계",
+    "href": "/newsrp/CelebLink/celeb_account_goods_sales"
+  },
+  {
+    "name": "셀럽별 매출통계",
+    "href": "/newsrp/CelebLink/celeb_account_celeb_sales"
+  },
+  {
+    "name": "정산 달력",
+    "href": "/newsrp/CelebLink/celeb_account_calendar"
+  },
+  {
+    "name": "정산 상세내역",
+    "href": "/newsrp/CelebLink/celeb_account_detail"
+  },
+  {
+    "name": "구)셀럽관리",
+    "href": "/newsrp/celeb/List"
+  },
+  {
+    "name": "셀럽목록",
+    "href": "/newsrp/celeb/list"
+  },
+  {
+    "name": "셀럽등록",
+    "href": "/newsrp/celeb/registration"
+  },
+  {
+    "name": "셀럽 상품목록",
+    "href": "/newsrp/celeb/goodslist"
+  },
+  {
+    "name": "셀럽별 매출관리",
+    "href": "/newsrp/celeb/accounts"
+  }
+]

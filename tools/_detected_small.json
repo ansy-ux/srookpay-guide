@@ -1,0 +1,586 @@
+[
+ {
+  "md": "bank/bankbook_02.md",
+  "src": "images/bank_02_logo.png",
+  "items": 3,
+  "found": [],
+  "status": "none"
+ },
+ {
+  "md": "bank/bankbook_02.md",
+  "src": "images/bank_03_logo.png",
+  "items": 3,
+  "found": [],
+  "status": "none"
+ },
+ {
+  "md": "bank/bankbook_02.md",
+  "src": "images/bank_04_logo.png",
+  "items": 3,
+  "found": [],
+  "status": "none"
+ },
+ {
+  "md": "bank/bankbook_02.md",
+  "src": "images/bank_05_logo.png",
+  "items": 3,
+  "found": [],
+  "status": "none"
+ },
+ {
+  "md": "bank/bankbook_02.md",
+  "src": "images/bank_06_logo.png",
+  "items": 3,
+  "found": [],
+  "status": "none"
+ },
+ {
+  "md": "bank/bankbook_02.md",
+  "src": "images/bank_07_logo.png",
+  "items": 3,
+  "found": [],
+  "status": "none"
+ },
+ {
+  "md": "bank/bankbook_02.md",
+  "src": "images/bank_08_logo.png",
+  "items": 3,
+  "found": [],
+  "status": "none"
+ },
+ {
+  "md": "celeb/celeb_01.md",
+  "src": "images/celeb_02.jpg",
+  "items": 3,
+  "found": [],
+  "status": "none"
+ },
+ {
+  "md": "celeb/celeb_sample_list.md",
+  "src": "images/celeb_sample_list_02_01.png",
+  "items": 7,
+  "found": [],
+  "status": "none"
+ },
+ {
+  "md": "celeb/celeb_sample_list.md",
+  "src": "images/celeb_sample_list_03_01.png",
+  "items": 6,
+  "found": [],
+  "status": "none"
+ },
+ {
+  "md": "member/manage_limit_member.md",
+  "src": "images/manage_limit_member_01_03.jpg",
+  "items": 5,
+  "found": [
+   {
+    "n": 3,
+    "x": 25.5,
+    "y": 29.9,
+    "d": 0.069,
+    "margin": 0.417,
+    "px": [
+     240,
+     368
+    ]
+   },
+   {
+    "n": 4,
+    "x": 27,
+    "y": 38,
+    "d": 0.191,
+    "margin": 0.435,
+    "px": [
+     254,
+     468
+    ]
+   },
+   {
+    "n": 5,
+    "x": 41.1,
+    "y": 48.8,
+    "d": 0,
+    "margin": 0.451,
+    "px": [
+     386,
+     601
+    ]
+   },
+   {
+    "n": 1,
+    "x": 26.7,
+    "y": 23.1,
+    "d": 0.07,
+    "margin": 0.57,
+    "px": [
+     251,
+     285
+    ]
+   },
+   {
+    "n": 1,
+    "x": 73.7,
+    "y": 64.9,
+    "d": 0.094,
+    "margin": 0.544,
+    "px": [
+     693,
+     799
+    ]
+   },
+   {
+    "n": 2,
+    "x": 25.5,
+    "y": 26.5,
+    "d": 0.143,
+    "margin": 0.377,
+    "px": [
+     240,
+     327
+    ]
+   }
+  ],
+  "status": "check"
+ },
+ {
+  "md": "member/sleep_member_list.md",
+  "src": "images/sleep_member_list_01.jpg",
+  "items": 5,
+  "found": [
+   {
+    "n": 3,
+    "x": 39.9,
+    "y": 26.5,
+    "d": 0.097,
+    "margin": 0.371,
+    "px": [
+     375,
+     145
+    ]
+   },
+   {
+    "n": 4,
+    "x": 80.1,
+    "y": 58.8,
+    "d": 0.086,
+    "margin": 0.563,
+    "px": [
+     753,
+     322
+    ]
+   },
+   {
+    "n": 5,
+    "x": 90.5,
+    "y": 59.7,
+    "d": 0,
+    "margin": 0.451,
+    "px": [
+     851,
+     327
+    ]
+   },
+   {
+    "n": 2,
+    "x": 46.6,
+    "y": 14.8,
+    "d": 0.168,
+    "margin": 0.355,
+    "px": [
+     438,
+     81
+    ]
+   },
+   {
+    "n": 1,
+    "x": 3.1,
+    "y": 14.8,
+    "d": 0.549,
+    "margin": 0.117,
+    "px": [
+     29,
+     81
+    ]
+   }
+  ],
+  "status": "ok"
+ },
+ {
+  "md": "member/sleep_member_list.md",
+  "src": "images/sleep_member_list_02.jpg",
+  "items": 3,
+  "found": [
+   {
+    "n": 1,
+    "x": 3.1,
+    "y": 4.8,
+    "d": 0.588,
+    "margin": 0.089,
+    "px": [
+     29,
+     47
+    ]
+   },
+   {
+    "n": 3,
+    "x": 3.1,
+    "y": 79.6,
+    "d": 0.418,
+    "margin": 0.065,
+    "px": [
+     29,
+     775
+    ]
+   },
+   {
+    "n": 2,
+    "x": 3.1,
+    "y": 40.1,
+    "d": 0.42,
+    "margin": 0.23,
+    "px": [
+     29,
+     391
+    ]
+   }
+  ],
+  "status": "ok"
+ },
+ {
+  "md": "setting/info02.md",
+  "src": "images/info02_47.png",
+  "items": 1,
+  "found": [],
+  "status": "none"
+ },
+ {
+  "md": "setting/info03.md",
+  "src": "images/info03_04.jpg",
+  "items": 3,
+  "found": [],
+  "status": "none"
+ },
+ {
+  "md": "setting/info03.md",
+  "src": "images/info03_06.jpg",
+  "items": 1,
+  "found": [],
+  "status": "none"
+ },
+ {
+  "md": "setting/info04.md",
+  "src": "images/info04_02.jpg",
+  "items": 1,
+  "found": [],
+  "status": "none"
+ },
+ {
+  "md": "setting/info04.md",
+  "src": "images/info04_03.jpg",
+  "items": 1,
+  "found": [],
+  "status": "none"
+ },
+ {
+  "md": "setting/info04.md",
+  "src": "images/info04_04.jpg",
+  "items": 1,
+  "found": [],
+  "status": "none"
+ },
+ {
+  "md": "setting/info04.md",
+  "src": "images/info04_05.jpg",
+  "items": 5,
+  "found": [],
+  "status": "none"
+ },
+ {
+  "md": "setting/info05.md",
+  "src": "images/info05_01.jpg",
+  "items": 1,
+  "found": [],
+  "status": "none"
+ },
+ {
+  "md": "setting/info05.md",
+  "src": "images/info05_03.jpg",
+  "items": 1,
+  "found": [],
+  "status": "none"
+ },
+ {
+  "md": "setting/info05.md",
+  "src": "images/info05_04.jpg",
+  "items": 1,
+  "found": [],
+  "status": "none"
+ },
+ {
+  "md": "setting/info06.md",
+  "src": "images/info06_01.jpg",
+  "items": 1,
+  "found": [],
+  "status": "none"
+ },
+ {
+  "md": "setting/info07.md",
+  "src": "images/info07_01.jpg",
+  "items": 2,
+  "found": [],
+  "status": "none"
+ },
+ {
+  "md": "setting/info07.md",
+  "src": "images/info07_02.jpg",
+  "items": 5,
+  "found": [
+   {
+    "n": 4,
+    "x": 42.1,
+    "y": 77.2,
+    "d": 0.095,
+    "margin": 0.553,
+    "px": [
+     396,
+     261
+    ]
+   },
+   {
+    "n": 5,
+    "x": 58,
+    "y": 77.5,
+    "d": 0,
+    "margin": 0.451,
+    "px": [
+     545,
+     262
+    ]
+   }
+  ],
+  "status": "check"
+ },
+ {
+  "md": "setting/info07.md",
+  "src": "images/info07_03.jpg",
+  "items": 1,
+  "found": [],
+  "status": "none"
+ },
+ {
+  "md": "setting/info07.md",
+  "src": "images/info07_08.jpg",
+  "items": 10,
+  "found": [
+   {
+    "n": 6,
+    "x": 78.9,
+    "y": 32.9,
+    "d": 0.176,
+    "margin": 0.272,
+    "px": [
+     742,
+     93
+    ]
+   },
+   {
+    "n": 8,
+    "x": 80.7,
+    "y": 70.3,
+    "d": 0.481,
+    "margin": 0.018,
+    "px": [
+     759,
+     199
+    ]
+   },
+   {
+    "n": 3,
+    "x": 48.6,
+    "y": 32.9,
+    "d": 0,
+    "margin": 0.474,
+    "px": [
+     457,
+     93
+    ]
+   },
+   {
+    "n": 4,
+    "x": 59.5,
+    "y": 32.9,
+    "d": 0.058,
+    "margin": 0.595,
+    "px": [
+     559,
+     93
+    ]
+   },
+   {
+    "n": 5,
+    "x": 69.9,
+    "y": 32.9,
+    "d": 0,
+    "margin": 0.451,
+    "px": [
+     657,
+     93
+    ]
+   },
+   {
+    "n": 1,
+    "x": 13.1,
+    "y": 32.9,
+    "d": 0.246,
+    "margin": 0.415,
+    "px": [
+     123,
+     93
+    ]
+   },
+   {
+    "n": 8,
+    "x": 70.1,
+    "y": 70.3,
+    "d": 0.24,
+    "margin": 0.222,
+    "px": [
+     659,
+     199
+    ]
+   },
+   {
+    "n": 2,
+    "x": 29.7,
+    "y": 32.9,
+    "d": 0.154,
+    "margin": 0.389,
+    "px": [
+     279,
+     93
+    ]
+   },
+   {
+    "n": 7,
+    "x": 59.5,
+    "y": 70.3,
+    "d": 0.176,
+    "margin": 0.457,
+    "px": [
+     559,
+     199
+    ]
+   },
+   {
+    "n": 6,
+    "x": 89.6,
+    "y": 49.1,
+    "d": 0.788,
+    "margin": 0.032,
+    "px": [
+     842,
+     139
+    ]
+   }
+  ],
+  "status": "check"
+ },
+ {
+  "md": "setting/info10.md",
+  "src": "images/info10_01.jpg",
+  "items": 2,
+  "found": [
+   {
+    "n": 1,
+    "x": 49.2,
+    "y": 50.3,
+    "d": 0.142,
+    "margin": 0.504,
+    "px": [
+     464,
+     174
+    ]
+   },
+   {
+    "n": 2,
+    "x": 93.2,
+    "y": 22.8,
+    "d": 0.08,
+    "margin": 0.465,
+    "px": [
+     879,
+     79
+    ]
+   }
+  ],
+  "status": "ok"
+ },
+ {
+  "md": "setting/info11.md",
+  "src": "images/info11_01.jpg",
+  "items": 3,
+  "found": [
+   {
+    "n": 1,
+    "x": 77.4,
+    "y": 42.9,
+    "d": 0.094,
+    "margin": 0.544,
+    "px": [
+     728,
+     212
+    ]
+   },
+   {
+    "n": 3,
+    "x": 42.1,
+    "y": 53,
+    "d": 0.185,
+    "margin": 0.319,
+    "px": [
+     396,
+     262
+    ]
+   },
+   {
+    "n": 2,
+    "x": 90.2,
+    "y": 42.7,
+    "d": 0.121,
+    "margin": 0.416,
+    "px": [
+     848,
+     211
+    ]
+   }
+  ],
+  "status": "ok"
+ },
+ {
+  "md": "setting/subuser_auth_group.md",
+  "src": "images/subuser_auth_group_02.jpg",
+  "items": 1,
+  "found": [],
+  "status": "none"
+ },
+ {
+  "md": "setting/subuser_auth_group.md",
+  "src": "images/info09_03_01.jpg",
+  "items": 6,
+  "found": [
+   {
+    "n": 4,
+    "x": 44,
+    "y": 21.2,
+    "d": 0.621,
+    "margin": 0.094,
+    "px": [
+     414,
+     141
+    ]
+   }
+  ],
+  "status": "check"
+ }
+]

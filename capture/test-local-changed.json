@@ -1,0 +1,54 @@
+{
+  "_설명": "변경 감지 시험: 상단 메뉴를 가려 화면이 바뀐 것처럼 만든다",
+  "baseUrl": "http://localhost:4321",
+  "contentDir": "capture/test-content",
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "targets": [
+    {
+      "id": "home-sitemap",
+      "url": "/index.html",
+      "selector": ".sitemap",
+      "image": "test/images/sitemap.png"
+    },
+    {
+      "id": "goods-toc",
+      "url": "/goods/goods_01.html",
+      "selector": ".toc",
+      "image": "test/images/toc.png"
+    },
+    {
+      "id": "header",
+      "url": "/goods/goods_01.html",
+      "selector": "header.top",
+      "image": "test/images/header.png"
+    },
+    {
+      "id": "search-popup",
+      "url": "/goods/goods_01.html",
+      "selector": ".search",
+      "steps": [
+        {
+          "fill": [
+            "#q",
+            "배송비"
+          ]
+        },
+        {
+          "wait": "#q-results li"
+        }
+      ],
+      "image": "test/images/search.png",
+      "include": [
+        "#q-results"
+      ],
+      "pad": 8
+    }
+  ],
+  "timeout": 5000,
+  "mask": [
+    ".gnb a.on"
+  ]
+}

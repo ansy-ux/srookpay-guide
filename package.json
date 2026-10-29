@@ -1,0 +1,19 @@
+{
+  "name": "srookpay-guide-prototype",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "serve": "node serve.mjs",
+    "capture:login": "node tools/capture.mjs login",
+    "capture:discover": "node tools/capture.mjs discover",
+    "capture": "node tools/capture.mjs run"
+  },
+  "dependencies": {
+    "marked": "14.1.4",
+    "node-html-parser": "^6.1.13",
+    "pixelmatch": "^6.0.0",
+    "playwright-core": "^1.48.2",
+    "sharp": "^0.33.5"
+  }
+}

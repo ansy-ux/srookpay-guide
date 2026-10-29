@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.auth/
+capture/out/
+capture/test-content/
+_original/
+capture/backup/
+capture/fit/
+capture/menuAll-tree.txt
+capture/ocr-all.json
+.claude/
+capture/audit.json
+capture/remaining.json

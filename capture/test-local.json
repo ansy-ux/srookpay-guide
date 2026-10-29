@@ -1,0 +1,57 @@
+{
+  "_설명": "파이프라인 시험용: 로그인 없이 로컬 가이드 사이트(npm run serve)를 캡처한다",
+  "baseUrl": "http://localhost:4321",
+  "contentDir": "capture/test-content",
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "targets": [
+    {
+      "id": "home-sitemap",
+      "url": "/index.html",
+      "selector": ".sitemap",
+      "image": "test/images/sitemap.png"
+    },
+    {
+      "id": "goods-toc",
+      "url": "/goods/goods_01.html",
+      "selector": ".toc",
+      "image": "test/images/toc.png"
+    },
+    {
+      "id": "header",
+      "url": "/goods/goods_01.html",
+      "selector": "header.top",
+      "image": "test/images/header.png"
+    },
+    {
+      "id": "search-popup",
+      "url": "/goods/goods_01.html",
+      "selector": ".search",
+      "steps": [
+        {
+          "fill": [
+            "#q",
+            "배송비"
+          ]
+        },
+        {
+          "wait": "#q-results li"
+        }
+      ],
+      "image": "test/images/search.png",
+      "include": [
+        "#q-results"
+      ],
+      "pad": 8
+    },
+    {
+      "id": "missing-element",
+      "url": "/index.html",
+      "selector": ".does-not-exist",
+      "image": "test/images/missing.png"
+    }
+  ],
+  "timeout": 5000
+}

@@ -1,0 +1,736 @@
+[
+  {
+    "name": "환경설정",
+    "dir": "setting",
+    "groups": [
+      {
+        "title": "환경설정",
+        "items": [
+          {
+            "name": "기본정보",
+            "href": "setting/info01.html"
+          },
+          {
+            "name": "쇼핑몰관리",
+            "href": "setting/info02.html",
+            "children": [
+              {
+                "name": "쇼핑몰 기본 설정",
+                "href": "setting/info02.html"
+              },
+              {
+                "name": "메인전시관리",
+                "href": "setting/main_display.html"
+              },
+              {
+                "name": "쇼핑몰 스타일",
+                "href": "setting/shop_style.html"
+              },
+              {
+                "name": "로그인 및 API설정",
+                "href": "setting/shop_multi_setting.html"
+              },
+              {
+                "name": "운영정책",
+                "href": "setting/shop_policy_setting.html"
+              }
+            ]
+          },
+          {
+            "name": "결제/무통장 설정",
+            "href": "setting/info03.html"
+          },
+          {
+            "name": "배송설정",
+            "href": "setting/info04.html"
+          },
+          {
+            "name": "자동배송처리",
+            "href": "setting/info05.html"
+          },
+          {
+            "name": "엑셀 내려받기 설정",
+            "href": "setting/info06.html"
+          },
+          {
+            "name": "상품 물류업체 관리",
+            "href": "setting/info07.html",
+            "children": [
+              {
+                "name": "발주서 엑셀 양식 설정",
+                "href": "setting/supply_excel.html"
+              },
+              {
+                "name": "상품 물류업체 설정",
+                "href": "setting/info07.html"
+              }
+            ]
+          },
+          {
+            "name": "팝업 관리",
+            "href": "setting/shop_popup.html"
+          },
+          {
+            "name": "페이지관리",
+            "href": "setting/custom_page_list.html"
+          },
+          {
+            "name": "게시판 관리",
+            "href": "setting/mall_notice_list.html",
+            "children": [
+              {
+                "name": "공지사항",
+                "href": "setting/mall_notice_list.html"
+              },
+              {
+                "name": "FAQ",
+                "href": "setting/faq_list.html"
+              },
+              {
+                "name": "이벤트",
+                "href": "setting/mall_event_list.html"
+              },
+              {
+                "name": "제휴제안",
+                "href": "setting/contact_list.html"
+              }
+            ]
+          },
+          {
+            "name": "이력조회",
+            "href": "setting/info08.html",
+            "children": [
+              {
+                "name": "개인정보 접속기록 조회",
+                "href": "setting/info08.html"
+              },
+              {
+                "name": "로그인 이력",
+                "href": "setting/user_login_history.html"
+              },
+              {
+                "name": "변경 이력",
+                "href": "setting/db_logging_list.html"
+              }
+            ]
+          },
+          {
+            "name": "부계정관리",
+            "href": "setting/info09.html",
+            "children": [
+              {
+                "name": "부계정설정",
+                "href": "setting/info09.html"
+              },
+              {
+                "name": "그룹별 권한 관리",
+                "href": "setting/subuser_auth_group.html"
+              }
+            ]
+          },
+          {
+            "name": "다중계정 설정",
+            "href": "setting/info10.html"
+          },
+          {
+            "name": "채널계정 설정",
+            "href": "setting/info11.html",
+            "children": [
+              {
+                "name": "채널계정 목록",
+                "href": "setting/info11.html"
+              },
+              {
+                "name": "가상계좌 결제관리",
+                "href": "setting/channel_pay.html"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "entry": "setting/info01.html"
+  },
+  {
+    "name": "상품관리",
+    "dir": "goods",
+    "groups": [
+      {
+        "title": "상품관리",
+        "items": [
+          {
+            "name": "상품목록",
+            "href": "goods/goods_01.html"
+          },
+          {
+            "name": "상품등록",
+            "href": "goods/goods_02.html"
+          },
+          {
+            "name": "상품대량등록",
+            "href": "goods/goods_bulk.html"
+          },
+          {
+            "name": "구매후기관리",
+            "href": "goods/goods_03.html"
+          },
+          {
+            "name": "상품문의관리",
+            "href": "goods/goods_04.html"
+          },
+          {
+            "name": "카테고리관리",
+            "href": "goods/goods_05.html"
+          },
+          {
+            "name": "메시지",
+            "href": "goods/goods_08.html"
+          }
+        ]
+      },
+      {
+        "title": "공급사관리",
+        "items": [
+          {
+            "name": "공급사목록",
+            "href": "goods/goods_06.html"
+          },
+          {
+            "name": "상품 요청 목록",
+            "href": "goods/goods_07.html"
+          }
+        ]
+      }
+    ],
+    "entry": "goods/goods_01.html"
+  },
+  {
+    "name": "주문관리",
+    "dir": "order",
+    "groups": [
+      {
+        "title": "주문관리",
+        "items": [
+          {
+            "name": "주문현황",
+            "href": "order/state.html"
+          },
+          {
+            "name": "상품별 주문관리",
+            "href": "order/goods.html"
+          },
+          {
+            "name": "배송상품 주문관리",
+            "href": "order/delivery.html"
+          },
+          {
+            "name": "채널별 주문현황",
+            "href": "order/cdeal01.html"
+          },
+          {
+            "name": "정기구독 주문관리",
+            "href": "order/subs.html"
+          },
+          {
+            "name": "거래상태별 주문관리",
+            "href": "order/deal01.html",
+            "children": [
+              {
+                "name": "전체",
+                "href": "order/deal01.html"
+              },
+              {
+                "name": "미입금확인",
+                "href": "order/deal01_01.html"
+              },
+              {
+                "name": "신규주문",
+                "href": "order/deal01_02.html"
+              },
+              {
+                "name": "배송준비",
+                "href": "order/deal01_03.html"
+              },
+              {
+                "name": "부분배송중",
+                "href": "order/deal01_04.html"
+              },
+              {
+                "name": "배송중",
+                "href": "order/deal01_05.html"
+              },
+              {
+                "name": "배송완료",
+                "href": "order/deal01_06.html"
+              },
+              {
+                "name": "배송예약",
+                "href": "order/deal01_07.html"
+              },
+              {
+                "name": "주문자요청접수",
+                "href": "order/deal01_08.html"
+              },
+              {
+                "name": "주문자요청관리",
+                "href": "order/deal01_09.html"
+              },
+              {
+                "name": "주문취소",
+                "href": "order/deal01_10.html"
+              },
+              {
+                "name": "반품관리",
+                "href": "order/deal01_11.html"
+              },
+              {
+                "name": "교환관리",
+                "href": "order/deal01_12.html"
+              },
+              {
+                "name": "휴지통",
+                "href": "order/deal01_13.html"
+              },
+              {
+                "name": "주문대기",
+                "href": "order/deal01_14.html"
+              }
+            ]
+          },
+          {
+            "name": "무통장 입금알림내역",
+            "href": "order/bank.html"
+          },
+          {
+            "name": "현금영수증 관리",
+            "href": "order/receipt.html"
+          },
+          {
+            "name": "주문상세정보 / 상품 및 결제정보",
+            "href": "order/detail.html"
+          }
+        ]
+      }
+    ],
+    "entry": "order/state.html"
+  },
+  {
+    "name": "회원관리",
+    "dir": "member",
+    "groups": [
+      {
+        "title": "회원관리",
+        "items": [
+          {
+            "name": "회원목록",
+            "href": "member/member.html"
+          },
+          {
+            "name": "휴면 및 정보파기 리스트",
+            "href": "member/sleep_member_list.html"
+          },
+          {
+            "name": "회원등급 설정",
+            "href": "member/grade_master_list.html"
+          },
+          {
+            "name": "포인트 설정",
+            "href": "member/point_setting.html"
+          },
+          {
+            "name": "포인트 사용내역",
+            "href": "member/point_history_list.html"
+          },
+          {
+            "name": "쿠폰 설정",
+            "href": "member/coupon_setting.html"
+          },
+          {
+            "name": "쿠폰 목록",
+            "href": "member/coupon_master_list.html"
+          },
+          {
+            "name": "쿠폰 사용내역",
+            "href": "member/coupon_history_list.html"
+          },
+          {
+            "name": "구매제한 고객관리",
+            "href": "member/manage_limit_member.html"
+          }
+        ]
+      }
+    ],
+    "entry": "member/member.html"
+  },
+  {
+    "name": "발주관리",
+    "dir": "supply",
+    "groups": [
+      {
+        "title": "발주관리",
+        "items": [
+          {
+            "name": "발주준비",
+            "href": "supply/order01.html",
+            "children": [
+              {
+                "name": "발주대기",
+                "href": "supply/order01.html"
+              },
+              {
+                "name": "발주보류",
+                "href": "supply/order01_01.html"
+              },
+              {
+                "name": "물류업체 미등록",
+                "href": "supply/order01_02.html"
+              }
+            ]
+          },
+          {
+            "name": "발주진행",
+            "href": "supply/supply.html",
+            "children": [
+              {
+                "name": "전체",
+                "href": "supply/supply.html"
+              },
+              {
+                "name": "발주서 생성",
+                "href": "supply/supply_01.html"
+              },
+              {
+                "name": "메일 발송 중",
+                "href": "supply/supply_02.html"
+              },
+              {
+                "name": "수신완료",
+                "href": "supply/supply_03.html"
+              }
+            ]
+          },
+          {
+            "name": "배송현황",
+            "href": "supply/order02.html"
+          },
+          {
+            "name": "물류업체 송장등록",
+            "href": "supply/deliveryinfo.html"
+          },
+          {
+            "name": "물류업체 정산조회",
+            "href": "supply/accountnew.html"
+          },
+          {
+            "name": "발주관리 신청",
+            "href": "supply/request.html"
+          },
+          {
+            "name": "발주관리 이용내역",
+            "href": "supply/requesthistory.html"
+          },
+          {
+            "name": "발송 메일 안내",
+            "href": "supply/mail01.html"
+          }
+        ]
+      }
+    ],
+    "entry": "supply/order01.html"
+  },
+  {
+    "name": "SMS관리",
+    "dir": "sms",
+    "groups": [
+      {
+        "title": "SMS관리",
+        "items": [
+          {
+            "name": "SMS 설정",
+            "href": "sms/set.html"
+          },
+          {
+            "name": "SMS 메시지관리",
+            "href": "sms/manage01.html"
+          },
+          {
+            "name": "SMS 충전하기",
+            "href": "sms/charge.html"
+          },
+          {
+            "name": "SMS 충전내역",
+            "href": "sms/charge_list.html"
+          },
+          {
+            "name": "SMS 발송내역조회",
+            "href": "sms/send_list.html"
+          },
+          {
+            "name": "알림톡 설정",
+            "href": "sms/talk_set.html"
+          },
+          {
+            "name": "알림톡 발송내역조회",
+            "href": "sms/talk_list.html"
+          }
+        ]
+      }
+    ],
+    "entry": "sms/set.html"
+  },
+  {
+    "name": "매출/정산",
+    "dir": "accounts",
+    "groups": [
+      {
+        "title": "매출/정산",
+        "items": [
+          {
+            "name": "기간별매출관리",
+            "href": "accounts/sales.html"
+          },
+          {
+            "name": "상품별매출관리",
+            "href": "accounts/sales_by_goods.html"
+          },
+          {
+            "name": "회원별매출관리",
+            "href": "accounts/sales_by_member.html"
+          },
+          {
+            "name": "정산달력",
+            "href": "accounts/calendar.html"
+          },
+          {
+            "name": "기간별정산통계(빠른)",
+            "href": "accounts/stats_fast.html"
+          },
+          {
+            "name": "기간별정산통계(일반)",
+            "href": "accounts/stats.html"
+          },
+          {
+            "name": "예치금입금관리",
+            "href": "accounts/deposit.html"
+          },
+          {
+            "name": "예치금 계좌관리",
+            "href": "accounts/deposit_cancel_accounts.html"
+          },
+          {
+            "name": "주문내역",
+            "href": "accounts/detail.html"
+          }
+        ]
+      }
+    ],
+    "entry": "accounts/sales.html"
+  },
+  {
+    "name": "링크셀러",
+    "dir": "linkseller",
+    "groups": [
+      {
+        "title": "링크셀러",
+        "items": [
+          {
+            "name": "링크셀러 연동",
+            "href": "linkseller/linkon_setup.html"
+          }
+        ]
+      }
+    ],
+    "entry": "linkseller/linkon_setup.html"
+  },
+  {
+    "name": "제휴서비스",
+    "dir": "affiliate",
+    "groups": [
+      {
+        "title": "제휴서비스",
+        "items": [
+          {
+            "name": "제휴서비스",
+            "href": "affiliate/aff_submain.html"
+          },
+          {
+            "name": "카카오싱크",
+            "href": "affiliate/kakaoSync.html",
+            "children": [
+              {
+                "name": "카카오싱크 설정",
+                "href": "affiliate/kakaoSync.html"
+              },
+              {
+                "name": "카카오 Business/Developers 설정",
+                "href": "affiliate/kakaoSync_02.html"
+              }
+            ]
+          },
+          {
+            "name": "이카운트",
+            "href": "affiliate/ecount.html"
+          },
+          {
+            "name": "굿스플로",
+            "href": "affiliate/goodsflow.html"
+          },
+          {
+            "name": "발주모아",
+            "href": "affiliate/baljumoa.html"
+          },
+          {
+            "name": "셀메이트",
+            "href": "affiliate/sellmate.html"
+          },
+          {
+            "name": "이지어드민",
+            "href": "affiliate/ezadmin.html"
+          },
+          {
+            "name": "스마트포스트",
+            "href": "affiliate/smartpost.html"
+          },
+          {
+            "name": "씨유포스트",
+            "href": "affiliate/cupost.html"
+          }
+        ]
+      }
+    ],
+    "entry": "affiliate/aff_submain.html"
+  },
+  {
+    "name": "셀럽션",
+    "dir": "celeb",
+    "groups": [
+      {
+        "title": "셀럽션 설정",
+        "items": [
+          {
+            "name": "서비스 신청",
+            "href": "celeb/celeb_service.html"
+          },
+          {
+            "name": "가입 페이지 설정",
+            "href": "celeb/celeb_01.html"
+          }
+        ]
+      },
+      {
+        "title": "셀럽 관리",
+        "items": [
+          {
+            "name": "셀럽 목록",
+            "href": "celeb/celeb_02.html"
+          },
+          {
+            "name": "셀럽 판매 일정 관리",
+            "href": "celeb/celeb_03.html"
+          },
+          {
+            "name": "셀럽찾기",
+            "href": "celeb/celeb_04.html"
+          },
+          {
+            "name": "판매제안 목록",
+            "href": "celeb/celeb_05.html"
+          }
+        ]
+      },
+      {
+        "title": "상품 관리",
+        "items": [
+          {
+            "name": "셀럽 PICK 상품 관리",
+            "href": "celeb/goods_regist.html"
+          },
+          {
+            "name": "상품 PICK 승인 관리",
+            "href": "celeb/goods_approval.html"
+          },
+          {
+            "name": "상품 그룹 마진 관리",
+            "href": "celeb/group_margin_regist.html"
+          },
+          {
+            "name": "샘플 요청 리스트",
+            "href": "celeb/celeb_sample_list.html"
+          },
+          {
+            "name": "셀럽 판매상품 목록",
+            "href": "celeb/pick_sell_list.html"
+          }
+        ]
+      },
+      {
+        "title": "주문 관리",
+        "items": [
+          {
+            "name": "주문 현황",
+            "href": "celeb/deal01.html"
+          }
+        ]
+      },
+      {
+        "title": "통계",
+        "items": [
+          {
+            "name": "기간별 매출통계",
+            "href": "celeb/celeb_account_sales.html"
+          },
+          {
+            "name": "상품별 매출통계",
+            "href": "celeb/celeb_account_goods_sales.html"
+          },
+          {
+            "name": "셀럽별 매출통계",
+            "href": "celeb/celeb_account_celeb_sales.html"
+          }
+        ]
+      },
+      {
+        "title": "정산",
+        "items": [
+          {
+            "name": "정산 달력",
+            "href": "celeb/celeb_account_calendar.html"
+          },
+          {
+            "name": "정산 상세내역",
+            "href": "celeb/celeb_account_detail.html"
+          }
+        ]
+      }
+    ],
+    "entry": "celeb/celeb_service.html"
+  },
+  {
+    "name": "무통장자동입금확인",
+    "dir": "bank",
+    "entry": "bank/bankbook_01.html",
+    "groups": [
+      {
+        "title": "무통장 자동입금확인",
+        "items": [
+          {
+            "name": "이용안내",
+            "href": "bank/bankbook_01.html"
+          },
+          {
+            "name": "문장알림 설정방법",
+            "href": "bank/bankbook_02.html"
+          },
+          {
+            "name": "앱 설치 및 이용방법",
+            "href": "bank/bankbook_03.html"
+          },
+          {
+            "name": "FAQ",
+            "href": "bank/bankbook_faq.html"
+          }
+        ]
+      }
+    ]
+  }
+]

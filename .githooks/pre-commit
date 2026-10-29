@@ -1,0 +1,4 @@
+#!/bin/sh
+# 커밋 전 개인정보 점검 (통과하지 못하면 커밋되지 않음)
+# 이 저장소를 내려받은 뒤 한 번: git config core.hooksPath .githooks
+node tools/privacy-check.mjs --staged || exit 1

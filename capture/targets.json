@@ -2803,10 +2803,10 @@
       "url": "/newsrp/Setting/info",
       "selector": "",
       "image": "setting/images/info01_02.png",
+      "fitChecked": true,
       "from": "사업자 정보",
-      "to": "운영형태",
-      "maxHeight": 1000,
-      "fitChecked": true
+      "to": "끝",
+      "maxHeight": 1900
     },
     {
       "id": "setting/info01_03",
@@ -3699,7 +3699,7 @@
       "image": "setting/images/info07_02.jpg",
       "fitChecked": true,
       "from": "자동발주 발주메일",
-      "maxHeight": 340
+      "maxHeight": 780
     },
     {
       "id": "setting/info07_03",
@@ -3975,8 +3975,10 @@
       "markers": 3,
       "url": "/newsrp/Setting/channelaccount",
       "image": "setting/images/info11_01.jpg",
-      "maxHeight": 330,
-      "fitChecked": true
+      "fitChecked": true,
+      "from": "채널 리스트",
+      "maxHeight": 620,
+      "to": "끝"
     },
     {
       "id": "setting/info11_02",
@@ -3994,7 +3996,13 @@
       "markers": 5,
       "url": "/newsrp/Setting/main_display",
       "image": "setting/images/main_display_01.png",
-      "fitChecked": true
+      "fitChecked": true,
+      "maxHeight": 1000,
+      "steps": [
+        {
+          "sleep": 2000
+        }
+      ]
     },
     {
       "id": "setting/main_display_02",
@@ -4062,9 +4070,9 @@
       "url": "/newsrp/Setting/MallNoticeList",
       "selector": "",
       "image": "setting/images/mall_notice_list_title2.png",
+      "fitChecked": true,
       "from": "공지사항",
-      "maxHeight": 223,
-      "fitChecked": true
+      "maxHeight": 820
     },
     {
       "id": "setting/mall_notice_list_notice_03_1",
@@ -4808,8 +4816,9 @@
       "url": "/newsrp/Supply/request",
       "selector": "",
       "image": "supply/images/supply_9_1.png",
+      "fitChecked": true,
       "from": "발주관리 주요기능 및 서비스",
-      "fitChecked": true
+      "to": "끝"
     },
     {
       "id": "supply/supply_9_2",
@@ -4828,8 +4837,9 @@
       "url": "/newsrp/Supply/requesthistory",
       "selector": "",
       "image": "supply/images/supply_9_3.png",
+      "fitChecked": true,
       "from": "서비스 이용 현황",
-      "fitChecked": true
+      "to": "끝"
     },
     {
       "id": "supply/supply_4_1",

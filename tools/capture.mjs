@@ -8,7 +8,7 @@
 import { chromium } from 'playwright-core';
 import sharp from 'sharp';
 import pixelmatch from 'pixelmatch';
-import { readFileSync, writeFileSync, mkdirSync, existsSync, copyFileSync, readdirSync, statSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, existsSync, copyFileSync, readdirSync, statSync, rmSync } from 'node:fs';
 import { join, dirname, relative } from 'node:path';
 import { unfix, sectionClip, maskPrivate } from './capture-lib.mjs';
 
@@ -173,7 +173,7 @@ if (mode === 'login') {
       for (let i = 0; ; i++) {
         try { copyFileSync(r.out, dest); break; } catch (e) {
           if (!['EBUSY', 'EPERM', 'EACCES', 'UNKNOWN'].includes(e.code)) throw e;
-          if (i >= 5) { writeFileSync(dest, readFileSync(r.out)); break; }
+          if (i >= 5) { const buf = readFileSync(r.out); rmSync(dest, { force: true }); writeFileSync(dest, buf); break; }
           await new Promise((res) => setTimeout(res, 500));
         }
       }

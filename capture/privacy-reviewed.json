@@ -1300,7 +1300,7 @@
   "reviewed": "2026-10-29"
  },
  "content/setting/images/info01_02.png": {
-  "sha256": "c6a8114f8d5c1a9c0269ae84d8eee332d27f0d71e7d5f51aa8fd086277806959",
+  "sha256": "f724ca6254fbb6d9a95bb1169c1f496a29750bfa0823acf50e5e01409be8c1f3",
   "reviewed": "2026-10-29"
  },
  "content/setting/images/info01_03.png": {
@@ -1684,7 +1684,7 @@
   "reviewed": "2026-10-29"
  },
  "content/setting/images/info07_02.jpg": {
-  "sha256": "098adbca120ad4cb7c2fb7789b3e59ed4d471207974ad1e0539c01568ed6ce86",
+  "sha256": "bf7fe4facd315c18f4c7960db7449eee9765e03d1d95850c736432c3d1fc5cf4",
   "reviewed": "2026-10-29"
  },
  "content/setting/images/info07_03.jpg": {
@@ -1804,7 +1804,7 @@
   "reviewed": "2026-10-29"
  },
  "content/setting/images/info11_01.jpg": {
-  "sha256": "e4346cbcbef129c11c0d7c949c0775df50a493db1ef28e42d770947f3c2b9189",
+  "sha256": "1eac0d95bb68f9687ffd8a63e1e73f2d3b24e22bc232ade44bcd4cabfcbf5805",
   "reviewed": "2026-10-29"
  },
  "content/setting/images/info11_02.jpg": {
@@ -1812,7 +1812,7 @@
   "reviewed": "2026-10-29"
  },
  "content/setting/images/main_display_01.png": {
-  "sha256": "4edb7ff35d2b58477356ca1f514b7dbb0513d36af1683b5a40e4c6e5706d36f7",
+  "sha256": "e3dc82ebeb10b56c08e495243ede48da96ba53b233f1159e63094bb3384500c3",
   "reviewed": "2026-10-29"
  },
  "content/setting/images/main_display_02.png": {
@@ -1848,7 +1848,7 @@
   "reviewed": "2026-10-29"
  },
  "content/setting/images/mall_notice_list_title2.png": {
-  "sha256": "0a3ffe2f35b4d2d5f35bad3e24203e39a3842a643800afdd608e519f8f6ceb8b",
+  "sha256": "a1324beece186f7082fca9c140cd7e7575892bd9ed68eeb63c4969d6fc32a51c",
   "reviewed": "2026-10-29"
  },
  "content/setting/images/shop_popup_01.png": {
@@ -2232,7 +2232,7 @@
   "reviewed": "2026-10-29"
  },
  "content/supply/images/supply_9_1.png": {
-  "sha256": "e50e43b4113c0883b88e40396dca03585b367bf1a0a954126ef5fc3195cbfe54",
+  "sha256": "835e58d3c546cb8dbe8ddbb62e41300d1a5bc94353ec4a6217a491351a09c4f8",
   "reviewed": "2026-10-29"
  },
  "content/supply/images/supply_9_2.png": {
@@ -2240,7 +2240,7 @@
   "reviewed": "2026-10-29"
  },
  "content/supply/images/supply_9_3.png": {
-  "sha256": "4f66284fdbf9d80f0b22bb0e82a374f27946ad07c46947fcac9aaccca9ac31f3",
+  "sha256": "9e548f1342ea9f9cd61f61ad296691d572391ab81587801beb9785e55c737790",
   "reviewed": "2026-10-29"
  }
 }
